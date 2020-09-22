@@ -1,9 +1,14 @@
 // import { render } from '@testing-library/react';
-import React from 'react';
+import React from "react";
 import ReactDOM from "react-dom";
 
-console.log('Hello World console');
+// more crap
+// import "jquery/dist/jquery";
+// import "popper.js";
+// import "bootstrap/dist/css/bootstrap.css";
 
-const h1 = <h1>Hello World</h1>;
-console.log(h1);
-ReactDOM.render(h1, document.getElementById('root'));
+// import the components
+// import Nav from "./components/nav/Nav.jsx";
+import App from "./App.jsx";
+
+ReactDOM.render(<App />, document.getElementById("root"));
