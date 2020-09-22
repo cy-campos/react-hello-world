@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "./components/nav/Nav";
-import Main from "./components/mainView/Main";
+import Main from "./components/main/Main";
 
 class App extends Component {
   state = {};
