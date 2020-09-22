@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Rest from "../rest/Rest";
 
 class Main extends Component {
   state = {};
@@ -38,6 +39,7 @@ class Main extends Component {
         {this.getForRegularExample()}
         <p>Here is a nursery rhyme:</p>
         <ul>{this.getMapExample()}</ul>
+        <Rest />
       </main>
     );
   }
